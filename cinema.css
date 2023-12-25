@@ -1,0 +1,121 @@
+input[type="text"]
+{
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    background-color: #2980b9;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    width: 100px;
+    border-radius: 3px;
+    border: solid black 1px;
+    height: 40px;
+}
+ input[type="text"],
+ input[type="date"],
+ input[type="password"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #2980b9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+}
+.label{
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: black solid;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+#cinema {
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 36%;
+    margin-right: 36%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#h {
+    text-decoration: underline;
+    text-align: center;
+    color: #3498db;
+}
+
+.display {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input[type="submit"],
+input[type="button"],
+
+input[type="reset"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+    background-color: #2980b9;
+}
+
+#erreur {
+    color: red;
+    text-align: center;
+    margin-top: 15px;
+}
+.session {
+    font-size: large;
+    display: flex;
+    margin-left: 530px;
+    margin-top: 20px;
+    text-align: right;
+    height: 60px;
+}
+
+.nom {
+    color: black solid;
+}
+.btn1_1 {
+    background-color: red;
+
+}
+
+.btn2 {
+
+    border-radius: 10px;
+    background-color: ghostwhite;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 480px;
+}

@@ -1,0 +1,115 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.a1{
+    color: white;
+}
+
+.Menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 0;
+    margin-top: 00;
+    margin-right: 00;
+    margin-left: 60px;
+    background-color: darkslategrey;
+
+}
+
+body {
+    /* Assurez-vous que le fond de l'ensemble de la page est couvert par l'image */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    background-image: url('./image/8.jpg');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+}
+
+button {
+    width: 150px;
+    border-radius: 3px;
+    border: solid black 1px;
+    background-color: ghostwhite;
+    height: 40px;
+    /**rgb(218, 218, 218)*/
+}
+.btn1{
+    background-color: red;
+}
+.btn1_1 {
+    background-color: red;
+
+}
+.btn2{
+
+        border-radius: 10px;
+        background-color: ghostwhite;     
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 480px;
+}
+
+table {
+    display: flex;
+    color: black;
+    margin-left: 35%;
+    margin-right: 30%;
+
+
+}
+
+th {
+    background-color: white;
+    color: black;
+    
+}
+
+td {
+    background-color: black;
+    color: white;
+    width: 1500px;
+   
+}
+.voir{
+    justify-content: space-between;
+    margin-top:  150px;
+
+}
+.bt{
+    margin-left: 400px;
+    width: 500px;
+}
+.label{
+    margin-left: 600px;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+
+}
+.session{
+    font-size: large;
+        display: flex;
+        margin-left: 400px;
+        margin-top: 20px;
+        background-color: ghostwhite;
+        text-align: right;
+        height: 60px;
+}
+.nom{
+    color: black solid;
+    text-align: center;
+}
